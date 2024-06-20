@@ -1,0 +1,152 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Black+Ops+One&display=swap');
+
+/* Primary Colors */
+:root {
+  --color-primary-1: #3c3b2f;
+  --color-primary-2: #ccb69c;
+  --color-secondary-1: #4F759b;
+  --color-secondary-2: #bddbd0;
+}
+
+/* Body Font */
+body {
+  font-family: 'Archivo', sans-serif;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Black Ops One', sans-serif;
+  color: var(--color-primary-1);
+}
+
+/* Buttons */
+.button,
+.actions-primary .action.tocart {
+  background-color: var(--color-primary-1);
+  border-color: var(--color-primary-1);
+  color: #ffffff;
+}
+
+.button:hover,
+.actions-primary .action.tocart:hover {
+  background-color: var(--color-primary-2);
+  border-color: var(--color-primary-2);
+  color: #ffffff;
+}
+
+/* Links */
+a {
+  color: var(--color-primary-1);
+}
+
+a:hover {
+  color: var(--color-primary-2);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--color-secondary-1);
+  color: #ffffff;
+}
+
+.footer a {
+  color: var(--color-secondary-2);
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
+
+/* Header */
+.header {
+  background-color: var(--color-primary-1);
+  color: #ffffff;
+}
+
+.header .logo a {
+  color: var(--color-primary-2);
+}
+
+.header .logo a:hover {
+  color: #ffffff;
+}
+
+/* Navigation Menu */
+.nav-primary .level0>a {
+  background-color: var(--color-primary-1);
+  color: #ffffff;
+}
+
+.nav-primary .level0>a:hover {
+  background-color: var(--color-primary-2);
+  color: #ffffff;
+}
+
+/* Product Cards */
+.product-item {
+  border: 1px solid var(--color-secondary-1);
+}
+
+.product-item .product-item-info {
+  background-color: #ffffff;
+  color: var(--color-primary-1);
+}
+
+.product-item .product-item-photo {
+  border-bottom: 1px solid var(--color-secondary-1);
+}
+
+.product-item .price {
+  color: var(--color-primary-2);
+}
+
+.product-item .action.tocart {
+  background-color: var(--color-primary-1);
+  border-color: var(--color-primary-1);
+  color: #ffffff;
+}
+
+.product-item .action.tocart:hover {
+  background-color: var(--color-primary-2);
+  border-color: var(--color-primary-2);
+  color: #ffffff;
+}
+
+/* Forms */
+input,
+textarea,
+select {
+  border: 1px solid var(--color-secondary-1);
+  background-color: #ffffff;
+  color: var(--color-primary-1);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--color-secondary-2);
+}
+
+/* Additional Elements */
+.price-box .price {
+  color: var(--color-primary-1);
+}
+
+.breadcrumbs {
+  background-color: var(--color-secondary-2);
+  color: var(--color-primary-1);
+}
+
+.breadcrumbs a {
+  color: var(--color-primary-1);
+}
+
+.breadcrumbs a:hover {
+  color: var(--color-primary-2);
+}
