@@ -52,9 +52,9 @@ a:hover {
 }
 
 /* Footer */
-.footer {
-  background-color: var(--color-secondary-1);
-  color: #ffffff;
+.footer .page-footer {
+  background-color: var(--color-primary-2);
+  color: var(--color-primary-1);
 }
 
 .footer a {
@@ -62,7 +62,7 @@ a:hover {
 }
 
 .footer a:hover {
-  color: #ffffff;
+  color: var(--color-primary-1);
 }
 
 /* Header */
@@ -123,4 +123,9 @@ select:focus {
 
 .breadcrumbs a:hover {
   color: var(--color-primary-2);
+}
+
+.copyrigth {
+  color: var(--color-primary-1);
+  background-color: var(--color-primary-2);
 }
