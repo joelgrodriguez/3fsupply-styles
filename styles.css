@@ -135,3 +135,13 @@ select:focus {
   color: #ffffff !important;
   margin-bottom: 0px !important;
 }
+
+span.ar-bopt-property-value.is_default.active {
+  background-color: var(--color-primary-2);
+  color: var(--color-primary-1);
+}
+
+button#product-addtocart-button {
+  background-color: var(--color-primary-1);
+  color: white;
+}
