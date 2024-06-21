@@ -52,7 +52,7 @@ a:hover {
 }
 
 /* Footer */
-.footer .page-footer {
+.footer.page-footer {
   background-color: var(--color-primary-2);
   color: var(--color-primary-1);
 }
@@ -125,7 +125,7 @@ select:focus {
   color: var(--color-primary-2);
 }
 
-.copyrigth {
+.copyright {
   color: var(--color-primary-1);
   background-color: var(--color-primary-2);
 }
