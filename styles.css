@@ -137,6 +137,13 @@ select:focus {
   margin-bottom: 0px !important;
 }
 
+.nav-sections *,
+#ui-id-2.ui-menu * {
+  background-color: var(--color-primary-1) !important;
+  color: #ffffff !important;
+  margin-bottom: 0px !important;
+}
+
 span.ar-bopt-property-value.is_default.active {
   background-color: var(--color-primary-2);
   color: var(--color-primary-1);
