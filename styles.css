@@ -130,7 +130,8 @@ select:focus {
   background-color: var(--color-primary-2);
 }
 
-.nav-sections {
+.nav-sections,
+#ui-id-2.ui-menu {
   background-color: var(--color-primary-1) !important;
   color: #ffffff !important;
   margin-bottom: 0px !important;
