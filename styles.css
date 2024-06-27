@@ -147,6 +147,6 @@ button#product-addtocart-button {
   color: white;
 }
 
-.breadcrumbs {
+div.breadcrumbs {
   margin-top: 2rem !important;
 }
